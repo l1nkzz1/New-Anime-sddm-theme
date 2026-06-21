@@ -9,8 +9,8 @@ import QtQuick.Controls 2.4
 
 Rectangle {
     id: root
-    width: 640
-    height: 480
+    width: 1366
+    height: 768
     state: "stateLogin"
 	
     readonly property int hMargin: 40
@@ -298,4 +298,4 @@ Rectangle {
         }
     }
 }
-//https://github.com/shinas101
+
