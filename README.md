@@ -6,7 +6,7 @@ Also used in [archlinkz-dotfiles](https://github.com/l1nkzz1/archlinkz-dotfiles)
 
 ## Preview :
 - Shinobu
-![Shinobu](Asset/shinobu.png)
+![Shinobu](Preview/shinobu preview.jpg)
 
 
 
