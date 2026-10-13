@@ -7,7 +7,7 @@ function addtoSys(){
 			}	
 function setBackground(){
 	printf "Select a Background : \n"
-	options=("Shinobu" "art-1" "art-2" "forest")
+	options=("Shinobu")
 	select opt in "${options[@]}";do
 		case $opt in
 			
@@ -15,22 +15,7 @@ function setBackground(){
 				cp Asset/shinobu.png Anime/background.png
 				addtoSys
 				break
-				;;
-			art-1)
-				cp Asset/art-1.jpg Anime/background.jpg
-				addtoSys
-				break
-				;;
-			art-2)
-				cp Asset/art-2.jpg Anime/background.jpg
-				addtoSys
-				break
-				;;
-			forest)
-				cp Asset/forest.jpg Anime/background.jpg
-				addtoSys
-				break
-				;;													
+				;;											
 			*)
 				printf "[*]Please select an image "
 				break
